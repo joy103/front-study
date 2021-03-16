@@ -1,0 +1,414 @@
+/* 공통css a*/
+body {
+    font-family: 'dotum';
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.tableBox {
+    width: 1092px;
+    height: 776px;
+    border: 1px solid blue;
+   border-right: none;
+   border-left: none;
+   margin-right: -1px;
+}
+
+.tableBox > .table1 {
+    width: 1092px;
+    height: 96px;
+    border: 1px solid blue;
+}
+
+.tableBox > .table2 {
+    width: 1092px;
+    height: 288px;
+    border: 1px solid blue;
+}
+
+.tableBox > .table3 {
+    width: 1092px;
+    height: 96px;
+    border: 1px solid blue;
+}
+
+.tableBox > .table4 {
+    width: 1092px;
+    height: 192px;
+    border: 1px solid blue;
+}
+
+.tableBox > .table5 {
+    width: 1092px;
+    height: 96px;
+    border: 1px solid blue;
+}
+
+.box{
+   border: 1px solid blue;
+}
+
+header {
+    margin-bottom: 0.4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+
+/*table1 css*/
+.table1 .box1{
+    display:flex;
+    width: 1092px;
+}
+
+.table1 .box2{
+    width: 527px;
+    text-align: center;
+    line-height: 96px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.table1 .box3{
+    width: 220px;
+    display:flex;
+	margin-right : 8px;
+
+}
+
+.table1 .box4{
+    width: 10px;
+    text-align: center;
+    line-height: 96px;
+}
+
+.table1 .box5{
+    width: 200px;
+}
+
+.table1 .box6{
+   width: 200px;
+    height:46px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 700;
+}
+    
+.table1 .box7{
+    width:137px;
+   height: 94px;
+}
+
+.table1 .box8{
+   width: 137px;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+   margin-top: -1px;
+}
+
+.table1 .box9{
+    width:208px;
+   margin-top: -1px;
+}
+
+.table1 .box10{
+   width: 208px;
+    display: flex;
+}
+
+.table1 .box11{
+    width: 104px;
+    text-align: right;
+    height: 48px;
+    line-height: 48px;
+}
+
+
+/*table2 css*/
+
+.table2 .boxContainer {
+    display: flex;
+}
+
+.table2 .box1 {
+    width: 31px;
+    height: 288px;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+.table2 .box2 {
+    width: 511px;
+    height: 288px;
+}
+
+.table2 .box2 .attriBox {
+    display: flex;
+    width: 512px;
+}
+
+.table2 .box2 .attriBox .attri {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table2 .box2 .attriBox .value {
+    width: 410px;
+    height: 71px;
+    display: flex;
+}
+
+.table2 .box2 .attriBox .value .no {
+    width: 33px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.table2 .box2 .attriBox .value .name {
+    width: 204.5px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.table2 .box2 .attriBox .value .attriName {
+    width: 32.5px;
+    height: 70px;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table2 .box2 .attriBox .value .name2 {
+    width: 170px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.table2 .box2 .attriBox .value .name2 span {
+    float: right;
+    margin-right: 0.4rem;
+}
+
+.table2 .box2 .attriBox .value .address {
+    width: 410px;
+    height: 70px;
+}
+
+
+/*table3 css*/
+
+/* 작성, 공급가액, 세액, 비고 메뉴 큰 틀*/
+.table3 .box1{
+   width: 1092px;
+   height: 28px;
+   line-height: 28px;
+   display: flex;
+   text-align: center;
+}
+/* 작성 */
+.table3 .box1 .box1_1{
+   width: 133px;
+}
+/* 공급가액 */
+.table3 .box1 .box1_2{
+   width: 443px;
+}
+/* 세액 */
+.table3 .box1 .box1_3{
+   width: 339px;
+}
+/* 비고 */
+.table3 .box1 .box1_4{
+   width: 170px;
+}
+
+/* 두번째, 세번째 줄을 합친 큰 박스 */
+.table3 .middle_box1{
+   width: 1092px;
+   height: 68px;
+   line-height: 68px;
+   display: flex;
+}
+
+/* 두번째, 세번째 줄에서 비고란을 제외한 나머지 칸을 포함하는 박스 */
+.table3 .middle_box2{
+   width: 920px;
+   height: 68px;
+}
+
+/* 년,월,일 등 두번째 줄 */
+.table3 .box2 {
+   width: 920px;
+   height: 28px;
+   line-height: 28px;
+   display: flex;
+   text-align: center;
+}
+.table3 .box2 .box2_1{
+   width: 69px;
+   padding-left: 1px;
+}
+.table3 .box2 .box2_2{
+   width: 35px;
+}
+
+/* 빈 공간 세번째 줄 */
+.table3 .box3{
+   width: 920px;
+   height: 40px;
+   line-height: 40px;
+   display: flex;
+   text-align: center;
+}
+.table3 .box3 .box3_1{
+   width: 69px;
+   padding-left: 1px;
+}
+.table3 .box3 .box3_2{
+   width: 35px;
+}
+
+/* 비고란 빈공간 */
+.table3 .row_box{
+   width: 170px;
+   height: 68px;
+   line-height: 68px;
+   text-align: center;
+}
+
+
+
+/*table4 css*/
+
+/*table4 flex 지정*/
+.table4 .box10 {
+   display : flex;
+   width : 1092px;
+}
+
+/*col 1 - 월*/
+.table4 .box1 {
+   float : left;
+   height : 37px;
+   width : 32px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 2 - 일*/
+.table4 .box2 {
+   float : left;
+   height : 37px;
+   width : 32px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 3 - 품목*/
+.table4 .box3 {
+   float : left;
+   height : 37px;
+   width : 306px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 4 - 규격*/
+.table4 .box4 {
+   float : left;
+   height : 37px;
+   width : 103.5px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 5 - 수량*/
+.table4 .box5 {
+   float : left;
+   height : 37px;
+   width : 103.5px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 6 - 단가*/
+.table4 .box6 {
+   float : left;
+   height : 37px;
+   width : 137px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 7 - 공급가액*/
+.table4 .box7 {
+   float : left;
+   height : 37px;
+   width : 137px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 8 - 세액*/
+.table4 .box8 {
+   float : left;
+   height : 37px;
+   width : 137px;
+   text-align : center;
+   line-height : 37px;
+}
+
+/*col 9 - 비고*/
+.table4 .box9 {
+   float : left;
+   height : 37px;
+   width : 104px;
+   text-align : center;
+   line-height : 37px;
+}
+
+
+/*table5 css*/
+
+.table5 .box1{
+    display:flex;
+    width: 1092px;
+}
+
+.table5 .box2{
+    width: 168px;
+}
+
+.table5 .box3{
+   width: 168px;
+    height:46px;
+    text-align: center;
+    line-height: 46px;
+}
+
+.table5 .box4{
+    width: 240px;
+    line-height: 90px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,342 @@
+<!DOCTYPE html>   
+<html lang="ko">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="veiwport" content="width=device-width" initial-scale="1.0">
+      <link href="tax.css" rel="stylesheet" type="text/css" />
+      <title>세금 계산서</title>
+   </head>
+   <body>
+      <div class="container">
+         <header>[별지 제11호 서식]</header>
+         <div class="tableBox">
+<!--세금계산서 박스-->
+            <div class="table1">
+                <div class="box1">
+                    <div class="box2">세 금 계 산 서</div>
+                    <div class="box3">
+                        <div class="box4">(</div>
+                       <div class="box5">
+                           <div class="box6">공 급 받 는 자</div>
+                           <div class="box6">보  관  용</div>
+                       </div>
+                        <div class="box4">)</div>
+                    </div>
+
+                    <div class="box7">
+                        <div class="box8 box">책 번 호</div>
+                        <div class="box8 box">일 련 번 호</div>
+                    </div>
+                    <div class="box9">
+                        <div class="box10">
+                            <div class="box11 box">권</div>
+                            <div class="box11 box">호</div>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+           
+<!--공급자, 공급받는자 박스-->
+            <div class="table2">
+                <div class="boxContainer">
+                  <div class="box box1">공급자</div>
+                  <div class="box box2">
+                     <div class="attriBox">
+                        <div class="box attri">등록번호</div>
+                        <div class="value">
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no">-</div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no">-</div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                        </div>
+                     </div>
+                     <div class="attriBox">
+                        <div class="box attri">
+                           <div class="attri1">상호</div>
+                           <div class="attri2">(법인명)</div>
+                        </div>
+                        <div class="value">
+                           <div class="box name"></div>
+                           <div class="box attriName">성명</div>
+                           <div class="box name2">
+                              <span>(인)</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="attriBox">
+                        <div class="box attri">
+                           <div class="attri1">사업장</div>
+                           <div class="attri2">주소</div>
+                        </div>
+                        <div class="value">
+                           <div class="box address"></div>
+                        </div>
+                     </div>
+                     <div class="attriBox">
+                        <div class="box attri">
+                           <div class="attri1">업태</div>
+                        </div>
+                        <div class="value">
+                           <div class="box name"></div>
+                           <div class="box attriName">종목</div>
+                           <div class="box name2"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box box1">공급받는자</div>
+                  <div class="box box2">
+                     <div class="attriBox">
+                        <div class="box attri">등록번호</div>
+                        <div class="value">
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no">-</div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no">-</div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                           <div class="box no"></div>
+                        </div>
+                     </div>
+                     <div class="attriBox">
+                        <div class="box attri">
+                           <div class="attri1">상호</div>
+                           <div class="attri2">(법인명)</div>
+                        </div>
+                        <div class="value">
+                           <div class="box name"></div>
+                           <div class="box attriName">성명</div>
+                           <div class="box name2">
+                              <span>(인)</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="attriBox">
+                        <div class="box attri">
+                           <div class="attri1">사업장</div>
+                           <div class="attri2">주소</div>
+                        </div>
+                        <div class="value">
+                           <div class="box address"></div>
+                        </div>
+                     </div>
+                     <div class="attriBox">
+                        <div class="box attri">
+                           <div class="attri1">업태</div>
+                        </div>
+                        <div class="value">
+                           <div class="box name"></div>
+                           <div class="box attriName">종목</div>
+                           <div class="box name2"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+           
+<!-- 공급가액, 세액 박스 -->
+         <div class="table3">
+         
+            <div class="box1">
+               <div class="box box1_1">작 &nbsp 성</div>
+               <div class="box box1_2">공 &nbsp 급 &nbsp 가 &nbsp 액</div>
+               <div class="box box1_3">세 &nbsp 액</div>
+               <div class="box box1_4">비 &nbsp 고</div>
+            </div>
+            
+            <div class="middle_box1">
+               <div class="middle_box2">
+                  <div class="box2">
+                     <div class="box box2_1">년</div>
+                     <div class="box box2_2">월</div>
+                     <div class="box box2_2">일</div>
+                     <div class="box box2_1">공란수</div>
+                     <div class="box box2_2">백</div>
+                     <div class="box box2_2">십</div>
+                     <div class="box box2_2">억</div>
+                     <div class="box box2_2">천</div>
+                     <div class="box box2_2">백</div>
+                     <div class="box box2_2">십</div>
+                     <div class="box box2_2">만</div>
+                     <div class="box box2_2">천</div>
+                     <div class="box box2_2">백</div>
+                     <div class="box box2_2">십</div>
+                     <div class="box box2_2">일</div>
+                     <div class="box box2_2">십</div>
+                     <div class="box box2_2">억</div>
+                     <div class="box box2_2">천</div>
+                     <div class="box box2_2">백</div>
+                     <div class="box box2_2">십</div>
+                     <div class="box box2_2">만</div>
+                     <div class="box box2_2">천</div>
+                     <div class="box box2_2">백</div>
+                     <div class="box box2_2">십</div>
+                     <div class="box box2_2">일</div>
+                  </div>
+                  
+                  <div class="box3">
+                     <div class="box box3_1"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_1"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                     <div class="box box3_2"></div>
+                  </div>
+               </div>
+            
+               <div class="box row_box"></div>
+            </div>
+            
+         </div>  
+
+<!-- 내용박스 -->			
+         <div class="table4">
+				<div class="box1">
+					<div class="box">월</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box2">
+					<div class="box">일</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box3">
+					<div class="box">품 &nbsp 목</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box4">
+					<div class="box">규 격</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box5">
+					<div class="box">수 량</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box6">
+					<div class="box">단 가</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box7">
+					<div class="box">공 급 가 액</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box8">
+					<div class="box">세 &nbsp 액</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>
+				
+				<div class="box9">
+					<div class="box">비 고</div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+					<div class="box"><br></div>
+				</div>			
+            </div>
+			
+<!-- 합계금액 박스 -->           
+         <div class="table5">
+            <div class="box1">
+               <div class="box2 box">
+                  <div class="box3 box">합계금액</div>
+                  <div class="box3 box"></div>
+               </div>
+
+               
+                  <div class="box2 box">
+                        <div class="box3 box">현금</div>
+                        <div class="box3 box"></div>
+                  </div>
+
+                  
+                        <div class="box2 box">
+                           <div class="box3 box">수표</div>
+                           <div class="box3 box"></div>
+                        </div>
+                  
+                        <div class="box2 box">
+                           <div class="box3 box">어음</div>
+                           <div class="box3 box"></div>
+                        </div>
+                        
+                        <div class="box2 box">
+                           <div class="box3 box">외상미수금</div>
+                           <div class="box3 box"></div>
+                        </div>
+
+                        <div class="box4 box">이 금액을 영수함</div>
+                        
+
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div>22226-28131일 '96.3.27승인</div>
+         <div>인쇄용지(특급)34g/m2 182mmx128mm</div>
+      </footer>
+      </div>
+   </body>
+</html>
