@@ -1,0 +1,238 @@
+body{
+    font-family: 돋움;
+    font-size: 16px;
+    background-color: #ededed;
+}
+
+.container {
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+header{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5rem;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 32px;
+    font-weight: 600;
+}
+.date{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+section{
+    width: 701px;
+    height: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    border: 1px solid #000;
+}
+.table1{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 8px;
+    border: 2px solid #000;
+}
+.table2{
+    width: 100%;
+    height: 562px;
+    margin-bottom: 8px;
+    border: 2px solid #000;
+}
+.table3{
+    width: 100%;
+    height: 62px;
+    margin-bottom: 8px;
+    border: 2px solid #000;
+}
+.table4{
+    width: 50%;
+    height: 64px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+}
+
+/* 테이블1 - 공급자,공급받는자 박스*/
+
+.table1 .box1{
+    display:flex;
+    width: 100%;
+   
+}
+
+.table1 .box2{
+    width:353px;
+    height:130px;
+    margin-left: -1px;
+	border : none;    
+}
+
+.table1 .box3{
+    height: 24px; 
+    text-align: center;  
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.table1 .box4{
+    width: 90px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: -1px;
+
+}
+
+.table1 .box5{
+    width: 260px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.table1 .box6{
+    width: 110px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.table1 .box7{
+    width: 36px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/* 테이블2 - 내용박스 */
+.table2 .attri {
+    display: flex;
+    width: 703px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.table2 .value {
+    display: flex;
+    width: 703px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: -1px;
+}
+
+.table2 .no {
+    width: 40px;
+}
+
+.table2 .size {
+    width: 60px;
+}
+
+.table2 .product_name, .product_code, .price {
+    width: 150px;
+}
+
+.table2 .count, .single_price {
+    width: 65px;
+}
+
+.table2 .etc {
+    width: 100px;
+}
+
+
+/* 테이블3 - 공급금액,부가세,총공급금액 박스*/
+
+/*공급금액,부가세,총공급금액 row*/
+.table3 .box1{
+	display : flex;
+	width : 703px;
+	height : 20px;
+	border: none;
+}
+
+/*공급금액,부가세,총공급금액*/
+.table3 .box2{
+	width : 234px;
+	height : 26px;
+	line-height : 24px;
+	text-align : center;
+	font-weight : 600;
+	margin-left : -1px;
+	margin-top : -1px;
+}
+
+
+/*빈칸 row*/
+.table3 .box3{
+	display : flex;
+	width : 703px;
+	height : 36px;
+	border: none;
+}
+
+
+/*빈칸*/
+.table3 .box4{
+	display : flex;
+	width : 236px;
+	height : 42px;
+	line-height : 34px;
+	text-align : center;
+	font-weight : 600;
+	border-top : none;
+	margin-left : -1px;
+}
+
+/* 테이블4 - 검수자박스 */
+
+/*전체 flex 지정*/
+.table4 .box5{
+	display : flex;
+	width : 350px;
+	height : 64px;
+	border : none;
+}
+
+/*검수자*/
+.table4 .box6{
+	width : 100px;
+	height : 64px;
+	line-height : 64px;
+	text-align : center;
+	font-weight : 600;
+	border-right : 1px solid black;
+}
+
+/*인*/
+.table4 .box7{
+	width : 250px;
+	height : 64px;
+	line-height : 64px;
+	font-size : 12px;
+	text-align : right;
+	padding-right : 30px;
+}
