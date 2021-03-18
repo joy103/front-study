@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Score Information</title>
+    <script src="score.js"></script>
+</head>
+
+<body>
+    <table width=50% style="margin-left:auto; margin-right:auto;">
+        <tr>
+            <td align="center">
+                <table width=98% border="1" bordercolor="#d7d7d7">
+                    <tr height=30><td bgcolor="#f2f2f2"><h1 style="text-align:center;">성적 및 합격 여부</h1></td></tr>
+                </table>
+                <br>
+                <br>
+                <table width=98% border="1" bordercolor="#d7d7d7">
+                    <tr height=30>
+                        <td bgcolor="#ffdab3" width="33.3%" align=center ><b> 이름 </b></td>
+                        <td align=center><b><input type="textbox" ID="title" style="text-align:center;"></b></td> 
+                    </tr>
+                </table>
+                <br> 			
+                <table width=98% border="1" bordercolor="#d7d7d7">
+                    <tr height=30 width=100% align=center><td colspan=3 bgcolor="#ffdab3"><b>점수</b></td></tr>
+                    <tr height=30>
+                        <td bgcolor="#fff7e6" align=center width="33.33%" ><b> 국어</b></td>
+                        <td bgcolor="#fff7e6" align=center width="33.33%" ><b> 영어 </b></td>
+                        <td bgcolor="#fff7e6" width="33.33%" align=center><b> 수학 </b></td>
+                    </tr>
+    
+                    <tr height=30>
+                        <td  width="33.33%" align=center><b><input type="textbox" ID="kor"  style="text-align:center;"> 점&nbsp;</b></td>
+                        <td  width="33.33%" align=center><b><input type="textbox" ID="eng"  style="text-align:center;"> 점&nbsp;</b></td>
+                        <td width="33.33%" align=center><b><input type="textbox" ID="math"  style="text-align:center;"> 점&nbsp;</b></td>
+                    </tr>
+                </table>
+                <br>
+                <table width=98% border="1" bordercolor="#d7d7d7">
+                    <tr height=30><td bgcolor="#ffdab3" width="33.3%" align=center><b> 합계 </b></td>
+                        <td align=center><span id="total"></span></td>
+                        <td width="7%" align=center><button onclick="ttscore()">확인</button></td>
+                    </tr>        
+                </table>
+                <br>
+                <table width=98% border="1" bordercolor="#d7d7d7">
+                    <tr height=30>
+                        <td bgcolor="#ffdab3" width="33.3%" align=center><b> 합격 여부 </b></td>
+                        <td align=center><span id="pass"></span></td>
+                        <td width="7%" align=center><button onclick="passss()">확인</button></td>
+                    </tr>
+                </table> 
+                <br>
+                <table width=98% border="1" bordercolor="#d7d7d7">
+                    <tr height=30 width=100% align=center><td colspan=3 bgcolor="#ffdab3"><b>학점</b></td></tr>
+                    <tr height=30>
+                        <td bgcolor="#fff7e6" align=center width="33.33%" ><b> 국어</b></td>
+                        <td bgcolor="#fff7e6" align=center width="33.33%" ><b> 영어 </b></td>
+                        <td bgcolor="#fff7e6" width="33.33%" align=center><b> 수학 </b></td>
+                    </tr>
+        
+                    <tr height=30>
+                        <td  width="33.33%" align=center><span id="kor1"></span></td>
+                        <td  width="33.33%" align=center><sapn id="eng1"></sapn></td>
+                        <td width="33.33%" align=center><span id="math1"></span></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    
+    <table width=98%>
+        <tr height=30 align=center><td><button onclick="input()">입력</button></td></tr>
+    </table>
+    
+    <table width="80%" style="margin-left:auto; margin-right:auto;"><tr><td><HR SIZE=1></td></tr></table>
+
+    <table width=60% border="1" bordercolor="#d7d7d7" style="margin-left:auto; margin-right:auto;">
+        <tr height=30><td bgcolor="#d6e0f5" width="10%" align=center>번호</td>
+            <td width="15%" bgcolor="#d6e0f5" align=center>이름</td>
+            <td width="15%" bgcolor="#d6e0f5" align=center>국어 점수</td>
+            <td width="15%" bgcolor="#d6e0f5" align=center>영어 점수</td>
+            <td width="15%" bgcolor="#d6e0f5" align=center>수학 점수</td>
+            <td width="15%" bgcolor="#d6e0f5" align=center>합계 점수</td>
+            <td width="15%" bgcolor="#d6e0f5" align=center>합격 여부</td>
+        </tr>
+
+        <tr height=30><td  width="10%" align=center></td>
+            <td width="15%" align=center><span id="title1"></span></td>
+            <td width="15%" align=center><span id="kor2"></span></td>
+            <td width="15%" align=center><span id="eng2"></span></td>
+            <td width="15%" align=center><span id="math2"></span></td>
+            <td width="15%" align=center><span id="total1"></span></td>
+            <td width="15%" align=center><span id="pass2"></span></td>
+        </tr>
+    </table>
+  
+</body>
+</html>
