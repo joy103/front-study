@@ -1,0 +1,305 @@
+    Header{
+		line-height : 25px;
+		height : 25px;
+		margin-bottom : 10px;
+    }	
+	
+	Section{
+		design : flex;
+		width : 100%;
+		height : 625px;
+	}
+	
+    Footer{
+		float : right;
+		line-height : 20px;
+		height : 20px; 
+		width : 10%;
+	}
+	
+    ul{
+		width : 100%;
+		list-style : none;
+		padding-left : 0px;
+		text-align : right;
+		font-weight : bold;
+		font-size : 14px;
+		line-height : 25px;
+	}
+	
+	.logout {
+		float : right;
+		line-height : 25px;
+		text-align : center;
+		background-color : red;
+		width : 90px;
+		color : white;
+	}
+	
+	aside {
+		float : left;
+		width : 19%;
+	}
+	
+	article{
+		float : right;
+		width : 80%;
+		color : white;
+	}
+	
+	.list_title{
+		background-color : blue;
+		width : 100%;
+		color : white;
+		text-align : center;
+		line-height : 25px;
+		font-weight : bold;
+	}
+		
+	.table_title{
+		background-color : #5c85d6;
+		font-weight : bold;
+		font-size : 17px;
+		text-align : center;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+		width : 99.7%
+	}
+		
+	.table_top{
+		margin-bottom : 4%;
+	}
+	
+	.table_top_left{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 11%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border-left : 1px solid black;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_top_right{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 10.9%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_content{
+		float : left;
+		color : black;
+		width : 38.8%;
+		font-size : 14px;
+		font-weight : bold;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_center{
+		float : left;
+		border : 1px solid black;
+		width : 99.7%;
+		height : 300px;
+		margin-bottom : 2%;
+	}
+	
+	.table_center1{
+		float : left;
+		width : 11%;
+		height : 300px;
+	}
+	
+	.table_center_left{
+		background-color : #d9d9d9;
+		color : black;
+		width : 100%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_center_left2{
+		background-color : #d9d9d9;
+		color : black;
+		width : 100%;
+		height : 31%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 95px;
+		border-collapse : collapse;
+	}
+	
+	.table_center2{
+		float : left;
+		width : 39%;
+		height : 300px;
+	}
+
+	.table_center_content{
+		color : black;
+		width : 98.8%;
+		padding-left :5px;
+		font-size : 14px;
+		font-weight : bold;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+
+	.table_center_content2{
+		color : black;
+		width : 98.8%;
+		padding-left :5px;
+		height : 31%;
+		font-size : 14px;
+		font-weight : bold;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_center3{
+		float : left;
+		width : 11%;
+		height : 300px;
+	}
+
+	.table_center_right{
+		background-color : #d9d9d9;
+		color : black;
+		width : 100%;
+		height : 70%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border-left : 1px solid black;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 200px;
+		border-collapse : collapse;
+	}
+	
+	.table_center4{
+		float : left;
+		width : 38.5%;
+		height : 300px;
+	}
+	
+	.table_center_content3{
+		color : black;
+		width : 100%;
+		padding-left :5px;
+		height : 70%;
+		font-size : 14px;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_bottom{
+		float : left;
+		width : 100%;
+		margin-bottom : 1%;
+	}
+	
+	.table_bottom_left{
+		float : left;
+		background-color : #d9d9d9;
+		color : black;
+		width : 11%;
+		height : 150px;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border-top : 1px solid black;
+		border-left : 1px solid black;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 145px;
+		border-collapse : collapse;
+	}
+
+	.table_bottom_content{
+		float : left;
+		color : black;
+		width : 88.2%;
+		padding-left : 5px;
+		padding-top : 2px;
+		font-size : 13px;
+		height : 148px;
+		border-top : 1px solid black;
+		border-right : 1px solid black;
+		border-bottom : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}	
+	
+	.table_bottom_content2{
+		color : black;
+		width : 99%;
+		font-size : 13px;
+		border : 1px solid black;
+		line-height : 22px;
+		border-collapse : collapse;
+	}
+		
+	.table_bottom2{
+		width : 100%
+		margin-bottom : 2%;
+	}
+	
+	.table_bottom_content3{
+		float : left;
+		background-color : #5c85d6;
+		font-weight : bold;
+		font-size : 14px;
+		text-align : center;
+		border : 1px solid white;
+		line-height : 25px;
+		border-collapse : collapse;
+		width : 10%;
+	}
+	
+	.table_bottom_content4{
+		float : left;
+		background-color : #5c85d6;
+		font-weight : bold;
+		font-size : 14px;
+		text-align : center;
+		border : 1px solid white;
+		line-height : 25px;
+		border-collapse : collapse;
+		width : 23%;
+	}
+	
+	.button{
+		float : left;
+		margin-right : 10px;
+	}

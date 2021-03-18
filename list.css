@@ -1,0 +1,354 @@
+	Header{
+		line-height : 25px;
+		height : 25px;
+		margin-bottom : 10px;
+    }	
+	
+	Section{
+		design : flex;
+		width : 100%;
+		height : 440px;
+	}
+	
+    Footer{
+		float : right;
+		line-height : 20px;
+		height : 20px; 
+	}
+	
+    ul{
+		width : 100%;
+		list-style : none;
+		padding-left : 0px;
+		text-align : right;
+		font-weight : bold;
+		font-size : 14px;
+		line-height : 25px;
+	}
+	
+	.logout {
+		float : right;
+		line-height : 25px;
+		text-align : center;
+		background-color : red;
+		width : 90px;
+		color : white;
+	}
+	
+	aside {
+		float : left;
+		width : 19%;
+	}
+	
+	article{
+		float : right;
+		width : 80%;
+		color : white;
+	}
+	
+	.list_title{
+		background-color : blue;
+		width : 100%;
+		color : white;
+		text-align : center;
+		line-height : 25px;
+		font-weight : bold;
+	}
+		
+	.table_title{
+		background-color : #5c85d6;
+		width : 99.4%;
+		font-weight : bold;
+		font-size : 17px;
+		text-align : center;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+		
+	.table_list1{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 5%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list2{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 13%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list3{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 6%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list4{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 10%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+		
+	.table_list5{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 6%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list6{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 8%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list7{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 8%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list8{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 6%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list9{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 8%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list10{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 6%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list11{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 18%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+	
+	.table_list12{
+		background-color : #d9d9d9;
+		float : left;
+		color : black;
+		width : 4%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+		border-collapse : collapse;
+	}
+
+	.table_list1_content{
+		float : left;
+		color : black;
+		width : 5%;
+		text-align : center;
+		font-size : 14px;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list2_content{
+		float : left;
+		color : black;
+		width : 13%;
+		font-size : 14px;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list3_content{
+		float : left;
+		color : black;
+		width : 6%;
+		font-size : 14px;
+		text-align : center;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list4_content{
+		float : left;
+		color : black;
+		width : 10%;
+		font-size : 14px;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+		
+	.table_list5_content{
+		float : left;
+		color : black;
+		width : 6%;
+		font-size : 14px;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list6_content{
+		float : left;
+		color : black;
+		width : 8%;
+		font-size : 14px;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list7_content{
+		float : left;
+		color : black;
+		width : 8%;
+		font-size : 14px;
+		text-align : center;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list8_content{
+		float : left;
+		color : black;
+		width : 6%;
+		text-align : center;
+		font-size : 14px;
+		font-weight : bold;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list9_content{
+		float : left;
+		color : black;
+		width : 8%;
+		font-size : 14px;
+		text-align : center;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list10_content{
+		float : left;
+		color : black;
+		width : 6%;
+		font-size : 14px;
+		text-align : center;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list11_content{
+		float : left;
+		color : black;
+		width : 18%;
+		font-size : 14px;
+		border : 1px solid black;
+		line-height : 25px;
+	}
+	
+	.table_list12_content{
+		float : left;
+		color : black;
+		width : 4%;
+		border : 1px solid black;
+		text-align : center;
+		font-size : 14px;
+		line-height : 25px;
+	}
+		
+	.제목{
+		float : left;
+		margin-right : 20px;
+	}
+	
+	.text{
+		float : left;
+		margin-right : 20px;
+	}
+	
+	.button{
+		float : left;
+		margin-right : 10px;
+	}
